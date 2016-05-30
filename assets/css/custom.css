@@ -1,0 +1,243 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+
+.margint20{
+    margin-top: 20px;
+}
+.lineheight20{
+    line-height: 20px !important;
+}
+.home-bg{
+     
+      background: url(../images/background.png) no-repeat;
+    background-size: cover;
+    /*font-family: "Clarendon Lt BT L" !important;*/  
+}
+.misc-pages-bg{
+     background: url(../images/background2.png) no-repeat;
+    background-size: cover;
+}
+.zero-padding{
+    padding: 0px;
+}
+/*Navbar CSS*/
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar{
+    background: transparent;
+    height: 150px;
+    border: 1px solid transparent;
+}
+.navbar-default .navbar-nav>.active>a{
+    background-color: transparent;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+.navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+}
+.navbar-nav{
+    margin-left: 20%;
+    border-bottom: 1px solid #fff;
+}
+
+/*Jungle CSS*/
+.jungle{
+    background: url(../images/background-2.png) no-repeat;
+    width: 100%;
+    height: 500px;
+    margin:0px;
+    padding:0px;
+    background-size: cover;
+}
+.jungle-simple-bg{
+    background: url(../images/background-2-without-animel.png) no-repeat;
+    width: 100%;
+    height: 500px;
+    margin:0px;
+    padding:0px;
+    background-size: cover;
+}
+
+/*Footer section CSS*/
+.footer{
+    background: linear-gradient(#8c6239, #e8b480);
+    min-height: 150px;
+}
+.footer img{
+    width: 200px;
+}
+.index-content{
+    font-family: "Clarendon Lt BT L";
+}
+
+/*Colors CSS*/
+.c_white{
+    color: #fff;
+}
+.about-bg{
+        background: rgba(244, 164, 96, 0.5);
+        padding: 2%;
+        border-radius: 10px;
+        margin-top: 50px;
+}
+.about-bg h4{
+    line-height: 34px;
+}
+
+/*Clouds css*/
+.cloud1{ width: 300px; height: 70px;}
+.cloud2{ width: 300px; height: 85px;}
+.cloud3{ width: 300px; height: 80px;}
+.cloud4{ width: 300px; height: 90px;}
+@media (max-width: 520px){
+    .navbar-header{
+        height: 120px;
+    }
+    .navbar-nav{
+        margin-left: 0%;
+        border-bottom: 1px solid transparent;
+    }
+    .navbar-brand img{
+        width: 160px;
+        height: 100px;
+        padding: 0px; margin:0px;
+    }
+    .navbar{
+        background: transparent;
+        height: 80px;
+        padding:0px;
+    }
+    .navbar-default .navbar-nav>.active>a{
+        background-color: transparent;
+        margin-top: 0px;
+    }
+    .navbar-default .navbar-collapse {
+    background: #ccccff;
+    position: relative;
+    z-index: 909;
+}
+    /*Jungle CSS*/
+.jungle {
+    background: url(../images/background-2.png) no-repeat;
+    width: 100%;
+    height: 157px;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+}
+.jungle-simple-bg {
+    height: 880px;
+    background-size: cover;
+}
+    
+    /*Index content*/
+    h1{
+        font-size: 22px !important;
+    }
+    
+    /*Footer responsive*/
+    .footer img{
+       width: 120px;
+}
+
+/*Clouds responsive*/
+.cloud1{ width: 200px; height: 50px;}
+.cloud2{ width: 200px; height: 50px;}
+.cloud3{ width: 200px; height: 50px;}
+.cloud4{ width: 200px; height: 50px;}
+}
+
+@media (max-width: 767px){
+    .navbar-header{
+        height: 120px;
+    }
+    .navbar-nav{
+        margin-left: 0%;
+        border-bottom: 1px solid transparent;
+    }
+    .navbar-brand img{
+        width: 160px;
+        height: 100px;
+        padding: 0px; margin:0px;
+    }
+    .navbar{
+        background: transparent;
+        height: 80px;
+        padding:0px;
+    }
+    .navbar-default .navbar-nav>.active>a{
+    background-color: transparent;
+    color: #fff;
+    font-size: 22px;
+    margin: 0px 0px auto;
+    }
+    .navbar-default .navbar-collapse {
+    background: #ccccff;
+    position: relative;
+    z-index: 909;
+}
+    .jungle-simple-bg {
+    height: 800px;
+    background-size: cover;
+}
+.jungle{
+    background: url(../images/background-2.png) no-repeat;
+    width: 100%;
+    height: 240px;
+    margin:0px;
+    padding:0px;
+    background-size: cover;
+}
+.about-bg h4{
+    line-height: 25px;
+    font-size: 17px;
+}
+}
+@media (max-width: 1200px){
+.navbar-default .navbar-nav>.active>a{
+    background-color: transparent;
+    margin-top: 0px;
+    color: #fff;
+    font-size: 17px;
+    padding: 9px;
+    margin: 50px 0px auto;
+}
+.navbar-nav {
+     margin-left: 0%; 
+    border-bottom: 1px solid #fff;
+}
+.jungle{
+    background: url(../images/background-2.png) no-repeat;
+    width: 100%;
+    height: 370px;
+    margin:0px;
+    padding:0px;
+    background-size: contain;
+}
+}
+@media (max-width: 920px){
+.navbar-nav {
+     margin-left: 0%; 
+    border-bottom: 1px solid #fff;
+}
+.jungle{
+    background: url(../images/background-2.png) no-repeat;
+    width: 100%;
+    height: 260px;
+    margin:0px;
+    padding:0px;
+    background-size: cover;
+}
+.navbar-default .navbar-nav>.active>a {
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    margin: 0px !important;
+}
+}
